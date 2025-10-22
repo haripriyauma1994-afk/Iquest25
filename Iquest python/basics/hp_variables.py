@@ -25,7 +25,7 @@ Types of comments:
 '''
 
 # Defining one variable at a time--> Single line comment
-num1 = 23
+num1 = 25
 num2 = 34.5
 num3 = 4+5j
 name = "iquest"
