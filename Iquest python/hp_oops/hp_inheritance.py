@@ -32,10 +32,15 @@ class Father(GrandFather):
     
     def __init__(self, name, gender, dob):
         self.dob = dob
+        '''
         self.name = name
         self.gender = gender
         print(f"Object is created with dob:{self.dob} name:{self.name} and gender: {self.gender}")
-    
+        '''
+        
+        super().__init__(name, gender)
+        print(f"D.O.B.: {self.dob}")
+        
     def f_method(self):
         print("This is Father class method")
     
